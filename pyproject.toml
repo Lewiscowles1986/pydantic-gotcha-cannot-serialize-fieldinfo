@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pydantic-horror-show"
+version = "0.1.0"
+description = ""
+authors = ["Lewis Cowles <lewis+github@cowles.uk>"]
+readme = "README.md"
+packages = [{include = "pydantic_horror_show"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pydantic = "^2.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
